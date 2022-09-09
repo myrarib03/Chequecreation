@@ -5,7 +5,7 @@ import turtle #import libraries needed for cheque graphic
 print("hello user! This program prints a virtual paycheck for you. pretty great right?") #intro - explain to user programs purpose
 x = str(input("To start off with, what is the name of the employee you are printing the paycheck for?")) #employee name (x)
 y = int(input("Great! What is the employees hourly rate? $")) #employees hourly rate (y)
-z = int(input("Thanks! What is the employees number of hours worked? $")) #number of hours worked (z)
+z = int(input("Thanks! What is the employees number of hours worked? ")) #number of hours worked (z)
 
 if (z > 40): #calculate hours and any overtime pay with if else statement
     b = z - 40 #number of overtime hours worked 

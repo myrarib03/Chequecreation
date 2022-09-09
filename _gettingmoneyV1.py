@@ -1,5 +1,5 @@
 #09/09/2022
-#the purpose of this program is to print a virtual cheque for a users overtime pay etc - this is the rough draft V1. It will be updated over time.
+#the purpose of this program is to print a virtual cheque for a users overtime pay etc - this is the rough draft (V1 - version 1). It will be updated over time.
 import turtle #import libraries needed for cheque graphic
 
 print("hello user! This program prints a virtual paycheck for you. pretty great right?") #intro - explain to user programs purpose

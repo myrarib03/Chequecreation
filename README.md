@@ -1,6 +1,4 @@
 # Grade12CompScienceWork
-#original code done on 09/09/2022
-#Assignment: write a program that prints a paycheck. Ask the program user for the name of the employee,
-the hourly rate, and the number of hours worked. If the number of hours exceedes 40, the
-employee is paid "time and a half", that is, 150 percent of the hourly rate on the hours 
-exceeding 40. Use fictatious names for the payer and the bank. 
+This is essentially any work that I do in regards to my computer science class.
+Most programming work will be done in python in this repository. Check out some
+of the cool things im getting up to!

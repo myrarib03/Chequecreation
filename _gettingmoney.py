@@ -1,7 +1,4 @@
-#myra ribeiro
 #09/09/2022
-#ICS4U Grade 12 Computer Science
-#Mr.Bertins Class
 
 import turtle #import libraries needed for cheque graphic
 

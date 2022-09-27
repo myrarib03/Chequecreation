@@ -1,4 +1,4 @@
-#myra ribeiro
+#myra
 #2022/09/23
 #this programs purpose is to display the dimensions of a letter size sheet of papet in millimetres, nanometres and picometres.
 #citations: (chicago style)

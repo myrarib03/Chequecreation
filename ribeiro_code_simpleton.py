@@ -1,6 +1,6 @@
 #myra ribeiro
 #2022/10/05
-#the purpose of this program is to compute the payable tax or refund due for simpleton citizens
+#the purpose of this program is to compute the payable tax or refund due for simpleton citizens (an imaginary city)
 
 income = float(input("Hello! This program calculates payable tax or refund due for simpleton citizens. to begin, what is your income ($)? ")) #input user income
 houseCost = float(input("what is your housing cost ($)? ")) #inputn user house cost

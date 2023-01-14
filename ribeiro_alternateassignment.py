@@ -1,0 +1,54 @@
+#myra ribeiro
+#2023-01-06
+#ICS4U alternate Assignment
+#problem 2 - Division
+
+print("Hello and welcome to my code! The purpose of this program is to determine if your inputted number is divisible by 3") #hello statement
+
+b = input("please enter a integer number here (please note that the abs value of negative numbers is taken for calculations): ") #insert integer for b
+divisor = int(input("please enter your divisor here (3 or 9): ")) #insert divisor
+
+print(int(b), "mod", divisor) #print the first step of equation
+
+x = int(b) #turn b into int
+b = abs(x) #take absolute value of b
+b = str(b) #turn back to str so u can convert to a list
+
+b = list([int(i) for i in b]) #turn b into list
+
+c = (sum(b)) #sum the list
+
+print(c, "mod", divisor) #print the second step
+
+if c > 9: #determine if c is double digits
+    c = str(c) #turn c into string
+    c = list([int(i) for i in c])#turn c into list
+    c = sum(c)#add all terms in c together
+    print(c, "mod", divisor)#print the third step
+    if c > 9:#if c is still double digits, repeat proccess
+        c = str(c)
+        c = list([int(i) for i in c])
+        c = sum(c)
+        print(c, "mod", divisor) #output step four
+
+while divisor == 3: #if user enters divisor to be 3, calculate if b is divisible
+    if c<10 and int(c%3) == 0: #check if there is a remainder (c must be single digits)
+        print(int(c%3))#print the final step
+        print(x, "is divisible by 3")#if the remainder is zero than b is divisible by 3
+        break#stop the loop
+    else:#if there is not a remainder of 0
+        print(int(c%3))#print the remainder (aka the final step)
+        print(x, "is not divisible by 3")#if the remainder is zero than b is not divisible by 3, output that to user
+        break#break the loop
+
+while divisor == 9:#this is the same process as above, it just checks if b is divisible by 9 instead of 3
+    if c<10 and int(c%9) == 0:
+        print(int(c%9))
+        print(x, "is divisible by 9")
+        break
+    else:
+        print(int(c%9))
+        print(x, "is not divisible by 9")
+        break
+
+print("thanks for using my program! Goodbye!") #goodbye statement
